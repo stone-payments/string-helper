@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/stone-payments/string-helper.svg?branch=master)](https://travis-ci.org/stone-payments/string-helper)
 [![Coverage Status](https://coveralls.io/repos/stone-payments/string-helper/badge.svg?branch=master&service=github)](https://coveralls.io/github/stone-payments/string-helper?branch=master)
 
+Do things that lodash doesn't. 
+
 # How to install
 
 ```bash
