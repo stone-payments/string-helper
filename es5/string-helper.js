@@ -15,13 +15,14 @@ var _lodash2 = _interopRequireDefault(_lodash);
 function renameKeys(data) {
   var fn = arguments.length <= 1 || arguments[1] === undefined ? _lodash2['default'].snakeCase : arguments[1];
 
-  var finalData = typeof data !== 'object' || typeof data === 'undefined' || data === null;
+  var dataType = typeof data;
+  var finalData = dataType !== 'object' || dataType === 'undefined' || data === null;
 
   if (finalData) {
     return data;
   }
 
-  var result = {};
+  var result = Array.isArray(data) ? [] : {};
   var keys = Object.keys(data);
 
   keys.forEach(function (key) {

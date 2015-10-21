@@ -145,6 +145,13 @@ describe('helper.renameKeys', () => {
 describe('helpers.renameKeys (array)', () => {
   const dataArray = [data, otherData];
 
+  it('should return an array', (done) => {
+    const result = renameKeys(dataArray);
+
+    result.should.be.an.Array();
+    done();
+  });
+
   it('should convert all elements', (done) => {
     const result = renameKeys(dataArray);
 
