@@ -1,6 +1,6 @@
 {
   "name": "string-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Do things that lodash doesn't",
   "main": "index.js",
   "scripts": {
