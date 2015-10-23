@@ -1,9 +1,11 @@
 # string-helper
 
-[![Build Status](https://travis-ci.org/stone-payments/string-helper.svg?branch=master)](https://travis-ci.org/stone-payments/string-helper)
-[![Coverage Status](https://coveralls.io/repos/stone-payments/string-helper/badge.svg?branch=master&service=github)](https://coveralls.io/github/stone-payments/string-helper?branch=master)
+[![Build Status][ci-image]][ci-url]
+[![Coverage Status][coverage-image]][coverage-url]
+[![Dependencies][dependencies-image]][dependencies-url]
+[![Dev dependencies][dependencies-dev-image]][dependencies-dev-url]
 
-Do things that lodash doesn't. 
+Do things that lodash doesn't.
 
 # How to install
 
@@ -37,3 +39,13 @@ const str = 'snake_case'.
 console.log(pascalCase(str));
 // => 'SnakeCase';
 ```
+
+
+[ci-url]: https://travis-ci.org/stone-payments/string-helper
+[ci-image]: https://travis-ci.org/stone-payments/string-helper.svg?branch=master
+[coverage-url]: https://coveralls.io/github/stone-payments/string-helper?branch=master
+[coverage-image]: https://coveralls.io/repos/stone-payments/string-helper/badge.svg?branch=master&service=github
+[dependencies-url]: https://david-dm.org/stone-payments/string-helper
+[dependencies-image]: https://david-dm.org/stone-payments/string-helper.svg
+[dependencies-dev-url]: https://david-dm.org/stone-payments/string-helper#info=devDependencies&view=table
+[dependencies-dev-image]: https://david-dm.org/stone-payments/string-helper/dev-status.svg
