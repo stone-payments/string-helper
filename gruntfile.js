@@ -16,14 +16,9 @@ module.exports = function gruntConfig(grunt) {
         },
       },
     },
+
     eslint: {
       target: files,
-    },
-
-    env: {
-      test: {
-        NODE_ENV: 'test',
-      },
     },
 
     mochaTest: {
