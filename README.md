@@ -41,11 +41,11 @@ console.log(pascalCase(str));
 ```
 
 
-[ci-url]: https://travis-ci.org/stone-payments/string-helper
-[ci-image]: https://travis-ci.org/stone-payments/string-helper.svg?branch=master
-[coverage-url]: https://coveralls.io/github/stone-payments/string-helper?branch=master
-[coverage-image]: https://coveralls.io/repos/stone-payments/string-helper/badge.svg?branch=master&service=github
-[dependencies-url]: https://david-dm.org/stone-payments/string-helper
-[dependencies-image]: https://david-dm.org/stone-payments/string-helper.svg
-[dependencies-dev-url]: https://david-dm.org/stone-payments/string-helper#info=devDependencies&view=table
-[dependencies-dev-image]: https://david-dm.org/stone-payments/string-helper/dev-status.svg
+[ci-url]: https://travis-ci.org/stone-pagamentos/string-helper
+[ci-image]: https://travis-ci.org/stone-pagamentos/string-helper.svg?branch=master
+[coverage-url]: https://coveralls.io/github/stone-pagamentos/string-helper?branch=master
+[coverage-image]: https://coveralls.io/repos/stone-pagamentos/string-helper/badge.svg?branch=master&service=github
+[dependencies-url]: https://david-dm.org/stone-pagamentos/string-helper
+[dependencies-image]: https://david-dm.org/stone-pagamentos/string-helper.svg
+[dependencies-dev-url]: https://david-dm.org/stone-pagamentos/string-helper#info=devDependencies&view=table
+[dependencies-dev-image]: https://david-dm.org/stone-pagamentos/string-helper/dev-status.svg
