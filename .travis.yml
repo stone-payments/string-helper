@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - '0.10'
-  - '0.11'
-  - '0.12'
   - '4.0'
   - '4.1'
   - '4.2'
   - '5.0'
+  - '5.1'
+  - '5.2'
+  - '5.3'
 before_install:
   - npm install -g grunt-cli istanbul
 after_success:
@@ -15,7 +15,7 @@ deploy:
   provider: npm
   email: mguilarducci@gmail.com
   api_key:
-    secure: ppjjYWcuGO1+Y+3SAWGDveAa5oIiL4sKP/20Od4O8EIktaC3is/9BLlpd9IDd2K7aea5xvD5CJjJ+ZTwI3PQ4hVepLkWqMOusHw3mE6YZK0cTFMZwhb2lrqQUKL6IL2CLkodX6hB08h9FFA4RuwufRbWKADlqpXmhe9I9g/LlgXn9NYWggrMWQneuPuTFpiwTAj4fnmLjP6649dNC31wkUudiUsc6NobMzy6qgSZrTFtt9dbOH+ciEOfBOsdkjFFR+FDOmP+u0qiW/cq4myeI955rX9pJfdtv61ZU7vhD4Dit24fwl/A+63OBX7dXJKsYbbfMV7SqIlFxF9JKYaC3dVbwW1gjfXoPqbZNjw1l8y8ClXQdOcRTtOqEqgrGqEfw+3xsU1QyFUjsUVmlE1oJ35MXK2k1JURX4VUgmORF+9Nq3hzxbSOWH3molTmw5H1GqRx2uIcufsdGeAa4EqsCPCKcQri0z78ll3CbOhdBltPbs1lIKN+gc8B2fgoJT+eNdfGOBf3Aig0UlaMogfgHG5kRghDcpkC6RjQgGvylMQwpErYHAAzf0dZsrSGfP2C/chCMb+4wI7dxnMvMxxcxK6SsF6y9/yXSdWxUwe5dlSDMshCqLgVwtVa/uQ/ksGODws4/IrXIjKdKBP2KrpRCUrJGI6GHWmiSSMUtJ2BnMs=
+    secure: S/kDDOjBhAbRFfASAS60lg9yGItYWoiBKgf3L/Jp0dDcXKPqQiovENf+KLilOR8MnmIUi55oWKPupnvqvcBbUspx3seFMDNxdwYBSG5cGmdQjB3Mnzzv/MmFTfLZHbfbvuwqd3X6j6hHPcO/hBwbRiBgVqgPP1OAYsJ00b3pgfUugc2qwse/lVMm3sK+UdSt4uV22dYbnqObdip/U3lJ+Hi/Tv+d7zmZuiRt0sP/HQSWvG9FqzwR9TdS3Sy3Sc6NXX+Rm8TTQHZYAXug22/sLWxw+dpE4Yy+76zkZDchX2Lk8JtvStCgUhqdFeYqthI9tH4K/ZUvg2CGExBwO3mRZlblHiZoz3khafm4k8HnM5pXNR35tUv2o3LIXuG+b8r9zToGwscZeF3zYfBFfUvcACsM1Bg4AXUY0VyAAfSpYJH8uxJOKN2b2CdTzJevyUwX7GcYDYFpL19f1rDtFB2AJo5Zq6Cp6VVrS9K7rB1QHuYS/PXlOjadWs7Y0eVVdFP6inJ9ZmxlQ5t0I0fTnPPPm8rS9uqr6EjyGu/jAUfKGBdn2BjWu7Hi9iZOTUzkjjpHO6b+v6Erj8NdbxxtU/ywW1LVFnEzjsidNNevD+qOnKO0XcdxIcz/JWf86yDJSBxnrBtH5tueOj4L7XhcHH5o7qhPP/VxqqtaRBC3ajYgcRA=
   on:
     tags: true
     repo: stone-pagamentos/string-helper
