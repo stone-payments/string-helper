@@ -7,6 +7,8 @@ node_js:
   - '5.1'
   - '5.2'
   - '5.3'
+  - '5.5'
+  - '5.6'
 before_install:
   - npm install -g grunt-cli istanbul
 after_success:
